@@ -12,13 +12,13 @@ Check out how our team is doing and compete on the leaderboard!
 <script src="{{base.url}}/assets/team-stats.js"></script>
 
 ## Overall Team Stats
-<img class="loader" align="center" src="{{base.url}}/assets/loading.gif" height="50%" />
+<img class="loader1" align="center" src="{{base.url}}/assets/loading.gif" height="50%" />
 <table id="teaminfo">
       <tbody id="teaminfobody"></tbody>
 </table>
 
 ## Leaderboard
-<img class="loader" align="center" src="{{base.url}}/assets/loading.gif" height="50%" />
+<img class="loader2" align="center" src="{{base.url}}/assets/loading.gif" height="50%" />
 <table id="leaderboard">
   <tbody id="tbody2"></tbody>
 </table>
