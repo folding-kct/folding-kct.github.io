@@ -47,18 +47,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             console.log(err, "Error While Fetching stats. Come again Later.")
         })
 
-    const table_2 = document.getElementById("tbody2");
-    const headers = ["Rank", "Name", "Credits", "Work Units"];
-    const tr = document.createElement("tr");
-
-    for (var i of headers) {
-        var something = document.createElement("td");
-        something.style = "font-weight:600;align:center";
-        something.textContent = i;
-        tr.append(something)
-    }
-
-    table_2.append(tr);
 
 
     var donors = [];
@@ -67,6 +55,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
     fetch(proxyuri + uri + '/members').then(res => {
         return res.text();
     }).then(resp => {
+        const table_2 = document.getElementById("tbody2");
+        const headers = ["Rank", "Name", "Credits", "Work Units"];
+        const tr = document.createElement("tr");
+
+        for (var i of headers) {
+            var something = document.createElement("td");
+            something.style = "font-weight:600;align:center";
+            something.textContent = i;
+            tr.append(something)
+        }
+
+        table_2.append(tr);
+
         var x = JSON.parse(resp)
         x.shift();
         for (var i of x) {
