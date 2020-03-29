@@ -1,0 +1,20 @@
+title: Folding@KCT
+team_number: 252736
+description: Homepage for Folding@KCT - Kumaraguru College of Technology's Folding@home team
+search_enabled: false
+color_scheme: "nil"
+footer_content: " "
+heading_anchors: true
+ga_tracking: UA-63032181-3
+aux_links:
+  "Team &#35;252736":
+    - "https://stats.foldingathome.org/team/252736"
+
+# Download links and uri's linked throughout the pages
+windows_download: https://download.foldingathome.org/releases/public/release/fah-installer/windows-10-32bit/v7.5/fah-installer_7.5.1_x86.exe
+macos_download: https://download.foldingathome.org/releases/public/release/fah-installer/osx-10.11-64bit/v7.5/fah-installer_7.5.1_x86_64.mpkg.zip
+debian_ubuntu_amd64_download: https://download.foldingathome.org/releases/public/release/fahclient/debian-stable-64bit/v7.5/fahclient_7.5.1_amd64.deb
+debian_ubuntu_filename: fahclient_7.5.1_amd64.deb
+getpasskey_uri: https://apps.foldingathome.org/getpasskey
+whatsapp_group_invite: https://chat.whatsapp.com/K5WJHcaIJJcAePmSgLdWkR
+web_control_screenshot: https://foldingathome.org/wp-content/uploads/2016/09/WIG15ceConfigID1-500x356.png
