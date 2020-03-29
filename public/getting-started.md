@@ -33,9 +33,7 @@ First, download the Folding@home software for your computer by clicking one of t
 ## Step 2: Get a Passkey
 A passkey uniquely identifies you as a donor and is associated with results that you have contributed and is displayed on the [leaderboard](/stats)
 
-While it is not mandatory, we recommend that you get a passkey so that you are uniquely identified on the KCT Team.  
-
-Make a note of your passkey, you will need this later during the setup process.
+While it is not mandatory, we recommend that you get a passkey so that you are uniquely identified on the KCT Team.
 
 ---
 
@@ -57,6 +55,7 @@ Make a note of your passkey, you will need this later during the setup process.
 </div>
 <div class="success" style="display:none;">
 	<h5>Passkey sent. Please check your email.</h5>
+	<h5>Make a note of your passkey, you will need this later during the setup process.</h5>
 	<h6>It may take upto 10 minutes to receive the email.<br>If you do not receive a passkey, check your spam/junk mail before requesting for a new one.</h6>
 </div>
 
