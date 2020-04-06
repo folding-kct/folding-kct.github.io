@@ -9,7 +9,7 @@ permalink: /stats
 Check out how our team is doing and compete on the leaderboard!
 {: .fs-6 .fw-300 }
 ---
-<script src="{{base.url}}/assets/team-stats.js"></script>
+<script src="{{base.url}}/assets/stats-{{ site.stats_source }}.js"></script>
 
 ## Overall Team Stats
 <img class="loader1" align="center" src="{{base.url}}/assets/loading.gif" height="50%" />

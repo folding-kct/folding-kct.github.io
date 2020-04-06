@@ -18,3 +18,10 @@ debian_ubuntu_filename: fahclient_7.5.1_amd64.deb
 getpasskey_uri: https://apps.foldingathome.org/getpasskey
 whatsapp_group_invite: https://chat.whatsapp.com/K5WJHcaIJJcAePmSgLdWkR
 web_control_screenshot: https://foldingathome.org/wp-content/uploads/2016/09/WIG15ceConfigID1-500x356.png
+
+# Config vars to set the script used for fetching data into the /stats page
+# Options: api, stats
+# stats uses assets/stats-stats.js to fetch data from stats.foldingathome.org/api
+# api uses assets/stats-api.js to fetch data from api.foldingathome.org
+# Preferred Option: stats
+stats_source: stats
